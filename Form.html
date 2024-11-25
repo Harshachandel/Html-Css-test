@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/brands.min.css" integrity="sha512-7rXIvd/xj1FnI2zKQjjXzDFxC4twqBByp8yxOgEQJs4C/aNzNyoQsOO7VxH0RgYNhbAYLJLwzqslaP50KTTHIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .div1{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            
+        }
+        body{
+            background-image: url("./background.jpg");
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+
+        a{
+            text-decoration: none;
+            
+        }
+
+        form{
+            background-color: white;
+            border-radius: 10px;
+            width: 420px;
+            height: 520px;
+            text-align: center;
+        }
+
+        input{
+            text-align: start;
+            background-color: white;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            padding-left: 80px;
+            padding-right: 80px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            
+        }
+
+        
+        button{
+            font-weight: 700;
+            font-size: 15px;
+            background: linear-gradient(#ab5692, #513252) ;
+            color: white;
+            padding-top: 15px;
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .ri-google-fill{
+            width: 100px;
+            height: 100px;
+        }
+
+        .heading1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            padding-top: 20px;
+            color: #513252 ;
+            text-align: center;
+        }
+
+        img{
+            padding-bottom: 5px;
+            padding-left: 30px;
+            padding-right: 20px;
+        }
+
+        button{
+            background-color: #ab5692;
+        }
+
+        #para{
+            margin-top: 10px;
+            /* margin-bottom: 10px; */
+        }
+
+        .icon-div i{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            font-size: 1rem;
+            border: 0.1rem dotted black;
+            border-radius: 50%;
+            color: #ab5692;
+            margin-bottom: 12px;
+
+        }  
+        
+        .a1{
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ab5692;
+            font-size: 20px;
+            padding-left: 50px;
+        }
+
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        a{
+            color: #ab5692;
+        }
+
+    </style>
+    
+
+</head>
+<body>
+    
+<div class="div1">
+   
+        <form>
+            
+            <h1 class="heading1">Login form</h1><br><br>
+            <img src="./pattern.jpeg" width="300px" height="20px"><br><br>
+            <input placeholder="Enter your email" type="email"><br><br>
+            <input placeholder="Enter your password" type="password"><br><br>
+
+            <a href="#" class="a1">Forgot password ? </a><br>
+
+            <div class="btn"><button>Login Now</button></div>
+
+            <p id="para">Or</p>
+            
+            <div class="icon-div">
+                <i class="ri-google-fill"></i>
+                <i class="ri-facebook-fill"></i>
+
+            </div>
+
+            <p>Not a member ?<a href="#"> Sign-up Now</a></p>
+            
+
+        </form>
+    
+</div>
+    
+</body>
+</html>
